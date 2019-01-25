@@ -6,19 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Loot
     balance={10}
     bitcoin={Object {}}
-    fetchBitcoin={
-      [MockFunction] {
-        "calls": Array [
-          Array [],
-        ],
-        "results": Array [
-          Object {
-            "isThrow": false,
-            "value": undefined,
-          },
-        ],
-      }
-    }
+    fetchBitcoin={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -111,6 +99,7 @@ ShallowWrapper {
         },
       },
     },
+    "disableLifecycleMethods": true,
   },
 }
 `;
